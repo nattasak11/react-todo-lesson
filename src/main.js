@@ -1,10 +1,19 @@
 import React,{ Component } from 'react'
 import { render } from 'react-dom'
 
+import TodoForm from './components/todo-form.js'
+import TodoLists from './components/todo-lists.js'
+
 class App extends Component {
 	render(){
 		return (
-			<div> Hello my name is DIV</div>
+			<div>  
+
+			<TodoForm />
+
+			<TodoLists />
+
+			</div>
 		)
 	}
 }
