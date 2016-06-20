@@ -17,7 +17,7 @@ export	default class ToDoLists extends Component {
 		console.log(this.props.todos)
 		return	(
 			<div>
-				<h1> Todos </h1>
+				<h1> Todosss </h1>
 			 	<ul>
 				 	{ this.renderList() }
 				</ul>

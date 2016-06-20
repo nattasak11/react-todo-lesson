@@ -28,9 +28,11 @@ class App extends Component {
 			text: text,
 			done: false,
 		}
-		let tempTodos = this.state.todos
-		tempTodos.push(newTodo)
-		this.setState({todos:tempTodos})
+
+
+		this.setState({
+			todos:this.state.todos.concat(newTodo)
+		})
 	}
 
 	handleDelete(index){
